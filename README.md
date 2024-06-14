@@ -99,3 +99,6 @@
     "seller": "Ebay",
     "stock": 6
   }]
+  ![image](https://github.com/Itaham05/CodeRoadies/assets/146025155/15c1ad11-4b03-4c0f-ae9d-90be50da3db2)
+
+![image](https://github.com/Itaham05/CodeRoadies/assets/146025155/cb4d8b89-36cb-4723-9b14-c27cbca2f80a)
