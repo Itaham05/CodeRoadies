@@ -1,0 +1,191 @@
+HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title of the Page</title>
+  </head>
+  <body>
+    <!-- Content goes here -->
+  </body>
+</html>
+<p>This is a paragraph.</p>
+<h1>This is a heading</h1>
+<h2>This is a sub-heading</h2>
+<a href="https://example.com">Link Text</a>
+<img src="image.jpg" alt="Description of image">
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ul>
+
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ol>
+<form action="/submit" method="post">
+  <label for="fname">First Name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last Name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td>Jane</td>
+    <td>25</td>
+  </tr>
+</table>
+
+
+css
+/* Targeting by element name */
+p {
+    color: blue;
+}
+
+/* Targeting by class */
+.my-class {
+    font-size: 16px;
+}
+
+/* Targeting by id */
+#my-id {
+    background-color: yellow;
+}
+/* Text color */
+color: red;
+
+/* Background color */
+background-color: lightblue;
+/* Font family */
+font-family: Arial, sans-serif;
+
+/* Font size */
+font-size: 18px;
+
+/* Font weight */
+font-weight: bold;
+/* Margin */
+margin: 10px;
+
+/* Padding */
+padding: 5px;
+/* Border width, style, and color */
+border: 1px solid black;
+/* Width */
+width: 300px;
+
+/* Height */
+height: 200px;
+/* Positioning */
+position: relative;
+top: 20px;
+left: 30px;
+/* Display type */
+display: block;
+/* Flex container */
+display: flex;
+
+/* Flex direction */
+flex-direction: row;
+
+/* Justify content */
+justify-content: space-between;
+
+/* Align items */
+align-items: center;
+/* Grid container */
+display: grid;
+
+/* Define columns */
+grid-template-columns: 1fr 1fr;
+
+/* Define rows */
+grid-template-rows: auto;
+
+/* Gap between grid items */
+gap: 10px;
+
+javascript
+// Variables
+let x = 5;
+const PI = 3.14;
+
+// Data types
+let name = "John"; // String
+let age = 30; // Number
+let isAdult = true; // Boolean
+let fruits = ["apple", "banana", "orange"]; // Array
+let person = { name: "John", age: 30 }; // Object
+// Function declaration
+function greet(name) {
+    console.log("Hello, " + name + "!");
+}
+
+// Function call
+greet("John");
+let num = 10;
+if (num > 0) {
+    console.log("Positive");
+} else if (num < 0) {
+    console.log("Negative");
+} else {
+    console.log("Zero");
+}
+// For loop
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
+
+// While loop
+let i = 0;
+while (i < 5) {
+    console.log(i);
+    i++;
+}
+let fruits = ["apple", "banana", "orange"];
+
+// Accessing elements
+console.log(fruits[0]); // "apple"
+
+// Adding elements
+fruits.push("grape");
+
+// Iterating through array
+fruits.forEach(function(fruit) {
+    console.log(fruit);
+});
+let person = {
+    name: "John",
+    age: 30,
+    city: "New York"
+};
+
+// Accessing properties
+console.log(person.name); // "John"
+
+// Adding properties
+person.gender = "Male";
+// Accessing an HTML element
+let element = document.getElementById("myElement");
+
+// Adding event listener
+element.addEventListener("click", function() {
+    console.log("Element clicked!");
+});
+
+// Changing element content
+element.innerHTML = "New Content";
+// Using Fetch API
+fetch('https://api.example.com/data')
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.log('Error:', error));
